@@ -300,10 +300,11 @@ div {
 
 @media screen and (max-width: 1100px) {
   div {
-    background: rgb(0,0,0);
-    background: linear-gradient(82deg, rgba(0,0,0,1) 0%, rgba(55,2,55,1) 5%, rgba(40,171,167,1) 81%);
+    background-image: none;
+    background-color: #01031A;  
     width: auto;
-    outline: none !important;
+    height: auto;
+    
   }
   
   #header .rightSection a{
@@ -343,12 +344,7 @@ div {
 }
 }
 @media screen and (max-width: 1100px) {
-  div {
-    background-image: url(assets/web\ design\ 2.jpg);
-    width: auto;
-    height: auto;
-    
-  }
+  
   .menu-btn{
     
     position: absolute;
